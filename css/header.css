@@ -1,0 +1,54 @@
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header div h1{
+    color:blue;
+}
+header div h1 span{
+    color:orange
+}
+
+ header ul{
+    display:flex;
+    align-items: center;
+    justify-content: start;
+    padding:0;
+    gap:10px;
+}
+li{
+    list-style: none;
+    transition:all 0.1s ease-in-out
+}
+
+li:hover{
+    color:orange;
+}
+
+header section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: 3px;
+
+
+}
+
+header section i{
+    background-color: rgb(238,238,238);
+    padding: 25px 20px;
+    
+}
+
+section i:hover{
+    background-color: orange;
+}
+
+header h1 i{
+    color: orange;
+}
+
+

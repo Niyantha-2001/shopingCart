@@ -1,0 +1,32 @@
+aside{
+   
+    background: url(./assect/images/blog-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    padding: 100px;
+    background-size:100%;
+  }
+
+
+
+aside div{
+    width:400px;
+    text-align: center;
+}
+
+aside div h1 span {
+    color: orange;
+  }
+
+.Hamburger{
+  display: none;  
+
+
+}
+  
+/*Extra small devices */
+

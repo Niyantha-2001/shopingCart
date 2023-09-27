@@ -1,0 +1,108 @@
+footer{
+    min-height: 50vh;
+    background-color: white;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 0px;
+    text-transform: capitalize;
+
+}
+footer > div{
+    flex:1;
+    margin:0 20px;
+    min-width: 200px;
+    
+}
+
+footer div h2{
+    color:blue;
+}
+
+
+.info h2 span{
+    color:orange;
+}
+ 
+.info h2 span i {
+    color:orange;
+    padding:1px;
+    background-color: white;
+}
+
+.info i {
+    background-color:  rgb(238, 238, 238);;
+    padding:8px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.info > i:hover{
+    background-color: orange;
+}
+
+footer div input{
+    border: none;
+    background-color: rgb(211, 207, 207);
+    padding: 10px 10px;
+    width: 200px;
+    border-radius: 2px;
+}
+footer div input:focus{
+    padding: 12px;
+    
+}
+
+
+footer div ul li {
+    padding: 5px 0;
+  }
+
+  footer div ul li i{
+    color: orange;
+    margin-right: 7px;
+}
+  
+
+.contact ul{
+    padding-left: 0% ;
+}
+
+.ending{
+    margin: 0 50px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.ending h1 span{
+    color:orange
+}
+
+.ending h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+hr{
+    color: grey;
+}
+
+
+/* Media Query for Medium Screens (e.g., tablets) */
+/* @media (min-width: 769px) and (max-width: 1024px) {
+    footer > div {
+        flex-basis: calc(33.33% - 40px);
+    }
+} */
+
+/* Media Query for Large Screens (e.g., desktops) */
+/* @media (min-width: 1025px) {
+    footer {
+        padding: 0 50px;
+    }
+    footer > div {
+        flex-basis: calc(25% - 40px);
+    }
+} */
